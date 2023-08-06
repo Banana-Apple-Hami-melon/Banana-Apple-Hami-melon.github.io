@@ -1,9 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown书写（一）</title>
+    <url>/2023/08/01/Markdown%E4%B9%A6%E5%86%99%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h1 id="Markdown是一种轻量级的「标记语言」"><a href="#Markdown是一种轻量级的「标记语言」" class="headerlink" title="Markdown是一种轻量级的「标记语言」"></a><strong>Markdown是一种轻量级的「标记语言」</strong></h1><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
+<p>文章参考官方文件<a href="https://markdown.com.cn/basic-syntax/headings.html">Markdown 标题语法 | Markdown 官方教程</a></p>
+<p>以下使用Typora作为示例。</p>
+<h1 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><p>标题等级分有六级：</p>
+<p>一级标题快捷键：Ctrl+1或者#标题</p>
+<p>二级标题快捷键：Ctrl+2或者##标题</p>
+<p>三级标题快捷键：Ctrl+3或者###标题</p>
+<p>四级标题快捷键：Ctrl+4或者####标题</p>
+<p>五级标题快捷键：Ctrl+5或者#####标题</p>
+<p>六级标题快捷键：Ctrl+6或者######标题</p>
+<p>例：</p>
+<p><img src="C:\Users\24289\AppData\Roaming\Typora\typora-user-images\image-20230806100818250.png" alt="image-20230806100818250"></p>
+<p>ps：最后一个#要与文字间隔空格</p>
+<h2 id="2-可选"><a href="#2-可选" class="headerlink" title="2.可选"></a>2.可选</h2><p>在文本下方添加任意数量的 &#x3D;&#x3D; 号来标识一级标题，或者 – 号来标识二级标题。</p>
+<p>一级标题：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Heading level 1</span><br><span class="line">===============</span><br></pre></td></tr></table></figure>
+
+<p>二级标题：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Heading level 2</span><br><span class="line">---------------</span><br></pre></td></tr></table></figure>
+
+<h1 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h1><p>无需使用制表符或是空格缩进段落。</p>
+<p>回车换行后段落与段落之间将会存在一条隔行；使用shift+enter可以使段落之间换行能够变得紧凑。</p>
+<p>你好呀!<br>今天吃什么呢？</p>
+
+<p>例：</p>
+<p><img src="C:\Users\24289\AppData\Roaming\Typora\typora-user-images\image-20230806101917674.png" alt="image-20230806101917674"></p>
+<h1 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h1><h2 id="1-加粗"><a href="#1-加粗" class="headerlink" title="1.加粗"></a>1.加粗</h2><p>在单词或短语的前后各添加两个星号或下划线。如需加粗一个单词或短语的中间部分用以表示强调的话，在要加粗部分的两侧各添加两个星号。</p>
+<p>快捷键：Ctrl+B</p>
+<p>例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I just love **bold text**.</span><br><span class="line">I just love __bold text__.</span><br><span class="line">Love**is**bold</span><br></pre></td></tr></table></figure>
+
+<p>I just love <strong>bold text</strong>.<br>I just love <strong>bold text</strong>.<br>Love<strong>is</strong>bold</p>
+<h2 id="2-斜体"><a href="#2-斜体" class="headerlink" title="2.斜体"></a>2.斜体</h2><p>要用斜体显示文本，在单词或短语前后添加一个星号或下划线。要斜体突出单词的中间部分，在字母前后各添加一个星号，中间不要带空格。</p>
+<p>例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Italicized text is the *cat&#x27;s meow*.</span><br><span class="line">Italicized text is the _cat&#x27;s meow_.</span><br><span class="line">A*cat*meow</span><br></pre></td></tr></table></figure>
+
+<p>Italicized text is the <em>cat’s meow</em>.<br>Italicized text is the <em>cat’s meow</em>.<br>A<em>cat</em>meow</p>
+<h2 id="3-粗体与斜体混用"><a href="#3-粗体与斜体混用" class="headerlink" title="3.粗体与斜体混用"></a>3.粗体与斜体混用</h2><p>要同时用粗体和斜体突出显示文本，在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，在要突出显示的部分前后各添加三个星号，中间不要带空格。</p>
+<p>例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This text is ***really important***.</span><br><span class="line">This text is ___really important___.</span><br><span class="line">This text is __*really important*__.</span><br><span class="line">This text is **_really important_**.</span><br><span class="line">This is really***very***important text.</span><br></pre></td></tr></table></figure>
+
+<p>This text is <em><strong>really important</strong></em>.<br>This text is <em><strong>really important</strong></em>.<br>This text is <strong><em>really important</em></strong>.<br>This text is <strong><em>really important</em></strong>.<br>This is really<em><strong>very</strong></em>important text.</p>
+<h1 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h1><h2 id="1-引用"><a href="#1-引用" class="headerlink" title="1.引用"></a>1.引用</h2><p>要创建块引用，在段落前添加一个 <code>&gt;</code> 符号。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
+<h2 id="2-多个段落的块引用"><a href="#2-多个段落的块引用" class="headerlink" title="2.多个段落的块引用"></a>2.多个段落的块引用</h2><p>块引用可以包含多个段落。为段落之间的空白行添加一个 <code>&gt;</code> 符号。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+<h2 id="3-嵌套块引用"><a href="#3-嵌套块引用" class="headerlink" title="3.嵌套块引用"></a>3.嵌套块引用</h2><p>块引用可以嵌套。在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h2 id="4-带其他元素的块引用"><a href="#4-带其他元素的块引用" class="headerlink" title="4.带其他元素的块引用"></a>4.带其他元素的块引用</h2><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>办公</category>
+        <category>学习</category>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>The First Blog_try</title>
+    <url>/2023/07/29/The-First-Blog-try/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p><del>第一次尝试</del></p>
+]]></content>
+      <tags>
+        <tag>随手</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/07/29/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>取色参考网站</title>
+    <url>/2023/07/31/%E5%8F%96%E8%89%B2%E5%8F%82%E8%80%83%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>颜色搭配网站：</p>
+<p>1.中国传统颜色：<a href="http://zhongguose.com/#yuantianlan">远天蓝 - 中国色 - 中国传统颜色 (zhongguose.com)</a></p>
+<p>2.冷却器：<a href="https://coolors.co/palettes">Explore Color Palettes - Coolors</a></p>
+<p>颜色查询网站：</p>
+<p><a href="http://tools.jb51.net/color/color_degress">在线网页颜色查询&#x2F;梯度&#x2F;搭配工具 - 颜色相关工具 - 脚本之家在线工具 (jb51.net)</a></p>
+<p><img src="/2023/07/31/%E5%8F%96%E8%89%B2%E5%8F%82%E8%80%83%E7%BD%91%E7%AB%99/d.png"></p>
+<p>(持续更新中……)</p>
+]]></content>
+      <categories>
+        <category>色彩</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>色彩</tag>
+        <tag>hexo</tag>
+        <tag>美化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows相关操作（一）</title>
     <url>/2023/08/01/Windows%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h2 id="复制、粘贴和其他常规快捷"><a href="#复制、粘贴和其他常规快捷" class="headerlink" title="复制、粘贴和其他常规快捷"></a>复制、粘贴和其他常规快捷</h2><p> Ctrl + X 剪切选定项<br> Ctrl + C（或 Ctrl + Insert） 复制选定项<br> Ctrl + V（或 Shift + Insert） 粘贴选定项<br> Ctrl + Z 撤消操作</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="复制、粘贴和其他常规快捷"><a href="#复制、粘贴和其他常规快捷" class="headerlink" title="复制、粘贴和其他常规快捷"></a>复制、粘贴和其他常规快捷</h2><p> Ctrl + X 剪切选定项<br> Ctrl + C（或 Ctrl + Insert） 复制选定项<br> Ctrl + V（或 Shift + Insert） 粘贴选定项<br> Ctrl + Z 撤消操作</p>
 <p> Alt + Tab 在打开的应用之间切换<br> Alt + F4 关闭活动项，或者退出活动应用</p>
 <p> Windows 徽标键 + L 锁定电脑<br> Windows 徽标键 + D 显示和隐藏桌面</p>
 <p> F2 重命名选定项<br> F3 在文件资源管理器中搜索文件或文件夹<br> F4 在文件资源管理器中显示地址栏列表<br> F5 刷新活动窗口<br> F6 在窗口中或桌面上循环浏览屏幕元素<br> F10 激活活动应用中的菜单栏</p>
@@ -27,85 +161,5 @@
         <tag>windows</tag>
         <tag>快捷键</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Markdown书写（一）</title>
-    <url>/2023/08/01/Markdown%E4%B9%A6%E5%86%99%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="Markdown是一种轻量级的「标记语言」"><a href="#Markdown是一种轻量级的「标记语言」" class="headerlink" title="Markdown是一种轻量级的「标记语言」"></a><strong>Markdown是一种轻量级的「标记语言」</strong></h1><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
-<h1 id="MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="MdEditor是一个在线编辑Markdown文档的编辑器"></a><strong>MdEditor是一个在线编辑Markdown文档的编辑器</strong></h1><p><em>MdEditor**扩展了Markdown的功能（如表格、脚注、内嵌HTML等等），以使让Markdown转换成更多的格式，和更丰富的展示效果，这些功能原初的Markdown尚不具备。</em></p>
-<p><em>Markdown**增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。这些衍生版本要么基于工具，如<del>Pandoc</del>，Pandao；要么基于网站，如GitHub和Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。</em></p>
-<p>MdEditor源于Pandao的JavaScript开源项目，开源地址<a href="https://github.com/pandao/editor.md">Editor.md</a>，并在MIT开源协议的许可范围内进行了优化，以适应广大用户群体的需求。向优秀的markdown开源编辑器原作者Pandao致敬。</p>
-<h1 id="MdEditor的功能列表演示"><a href="#MdEditor的功能列表演示" class="headerlink" title="MdEditor的功能列表演示"></a><strong>MdEditor的功能列表演示</strong></h1><h1 id="标题H1"><a href="#标题H1" class="headerlink" title="标题H1"></a><strong>标题H1</strong></h1><h2 id="标题H2"><a href="#标题H2" class="headerlink" title="标题H2"></a><strong>标题H2</strong></h2><h3 id="标题H3"><a href="#标题H3" class="headerlink" title="标题H3"></a><strong>标题H3</strong></h3><h4 id="标题H4"><a href="#标题H4" class="headerlink" title="标题H4"></a><strong>标题H4</strong></h4><h5 id="标题H5"><a href="#标题H5" class="headerlink" title="标题H5"></a><strong>标题H5</strong></h5><h6 id="标题H5-1"><a href="#标题H5-1" class="headerlink" title="标题H5"></a><strong>标题H5</strong></h6><h1 id="字符效果和横线等"><a href="#字符效果和横线等" class="headerlink" title="字符效果和横线等"></a><strong>字符效果和横线等</strong></h1><p><del>删除线</del> 删除线（开启识别HTML标签时）<br> <em>斜体字</em> <em>斜体字</em><br> <strong>粗体</strong> <strong>粗体</strong><br> *<strong>粗斜体*</strong> *<strong>粗斜体*</strong></p>
-<p>上标：θ<sub>1</sub>,</p>
-<p>下标：θ<sup>2</sup>,</p>
-<p><strong>缩写(同HTML的abbr标签)</strong></p>
-<p><em>即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启</em></p>
-<p>The HTML specification is maintained by the W3C.</p>
-<h1 id="引用-Blockquotes"><a href="#引用-Blockquotes" class="headerlink" title="引用 Blockquotes"></a><strong>引用 Blockquotes</strong></h1><p><em>引用文本 Blockquotes</em></p>
-<p>引用的行内混合 Blockquotes</p>
-<p><em>引用：如果想要插入空白换行*<em>即</em></em><br /><strong>标签</strong>，在插入处先键入两个以上的空格然后回车即可，*<a href="http://localhost/"><em>普通链接</em></a><em>。</em></p>
-<h1 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a><strong>锚点与链接 Links</strong></h1><p><a href="http://localhost/">普通链接</a></p>
-<p><a href="http://localhost/">普通链接带标题</a></p>
-<p>直接链接：<a href="https://github.com/">https://github.com</a></p>
-<p><a href="http://www.this-anchor-link.com/">锚点链接</a></p>
-<p>GFM a-tail link <a href="https://github.com/pandao">@pandao</a></p>
-<p><a href="https://github.com/pandao"><em>@pandao</em></a></p>
-]]></content>
-      <categories>
-        <category>办公</category>
-        <category>学习</category>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>The First Blog_try</title>
-    <url>/2023/07/29/The-First-Blog-try/</url>
-    <content><![CDATA[<p><del>第一次尝试</del></p>
-]]></content>
-      <tags>
-        <tag>随手</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>取色参考网站</title>
-    <url>/2023/07/31/%E5%8F%96%E8%89%B2%E5%8F%82%E8%80%83%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<p>颜色搭配网站：</p>
-<p>1.中国传统颜色：<a href="http://zhongguose.com/#yuantianlan">远天蓝 - 中国色 - 中国传统颜色 (zhongguose.com)</a></p>
-<p>2.冷却器：<a href="https://coolors.co/palettes">Explore Color Palettes - Coolors</a></p>
-<p>颜色查询网站：</p>
-<p><a href="http://tools.jb51.net/color/color_degress">在线网页颜色查询&#x2F;梯度&#x2F;搭配工具 - 颜色相关工具 - 脚本之家在线工具 (jb51.net)</a></p>
-<p><img src="/2023/07/31/%E5%8F%96%E8%89%B2%E5%8F%82%E8%80%83%E7%BD%91%E7%AB%99/d.png"></p>
-<p>(持续更新中……)</p>
-]]></content>
-      <categories>
-        <category>色彩</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>色彩</tag>
-        <tag>hexo</tag>
-        <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/07/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
